@@ -9,7 +9,7 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
   Title = "イロフル / irofull"
-  Content = "人生のあれこれを、色とりどりに。\n\n# 暮らし　# なぜだろう　# ずっと考えてること　# 気づき　# 好きなこと（旅行・編み物・食べ物 etc…)\n\n*Colorful Stories from Everyday Life*"
+  Content = "人生のあれこれを、色とりどりに。\n\n暮らし　なぜだろう　ずっと考えてること　気づき　好きなこと（旅行・編み物・食べ物 etc…)\n\n*Colorful Stories from Everyday Life — big questions, small joys, everything in between.*"
 
 [menu]
   [[menu.main]]
