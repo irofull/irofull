@@ -7,16 +7,14 @@
                 {{- $img := resources.Get site.Params.label.icon }}
                 {{- if $img }}
                     <img src="{{ $img.Permalink }}" alt="" aria-label="logo"
-                        height="{{- site.Params.label.iconHeight | default "30" -}}">
+                        height="{{- site.Params.label.iconHeight | default "12" -}}">
                 {{- else }}
                 <img src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
-                    height="{{- site.Params.label.iconHeight | default "30" -}}">
+                    height="{{- site.Params.label.iconHeight | default "12" -}}">
                 {{- end -}}
                 {{- end }}
-                <span class="logo-text">
-                    <span class="logo-text__ja">イロフル</span><span class="logo-text__en">irofull</span>
-                    <span class="logo-text__tagline">Colorful Stories from Everyday Life</span>
-                </span>
+                <span class="logo-title">イロフル</span>
+                <span class="logo-sub">irofull · Colorful Stories from Everyday Life</span>
             </a>
             {{- end }}
 

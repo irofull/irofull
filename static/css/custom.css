@@ -29,39 +29,49 @@ body::before {
 }
 
 /* ============================================================
-   ヘッダー：ロゴテキスト
+   ヘッダー：中央揃え縦スタック型
    ============================================================ */
-.logo a {
-  display: flex;
+.header-nav {
+  flex-direction: column;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem var(--gap) 0.8rem;
+  position: relative;
+}
+
+.logo {
+  justify-content: center;
+}
+
+.logo a {
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
   text-decoration: none;
 }
 
-.logo-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
-}
-
-.logo-text__ja {
-  font-size: 1.1rem;
-  font-weight: 700;
+.logo-title {
+  font-size: 2rem;
+  font-weight: 500;
   color: var(--primary);
-}
-
-.logo-text__en {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--c-purple);
   letter-spacing: 0.05em;
 }
 
-.logo-text__tagline {
-  font-size: 0.65rem;
-  color: var(--secondary);
+.logo-sub {
+  font-size: 0.8rem;
   font-style: italic;
-  white-space: nowrap;
+  color: var(--secondary);
+}
+
+.logo-switches {
+  position: absolute;
+  right: var(--gap);
+  top: 1.5rem;
+}
+
+#menu {
+  justify-content: center;
 }
 
 /* ============================================================
@@ -88,10 +98,11 @@ body::before {
 }
 
 .home-hero__title {
-  font-size: clamp(2.2rem, 6vw, 3.2rem);
-  font-weight: 700;
+  font-size: clamp(1.8rem, 5vw, 2.4rem);
+  font-weight: 300;
   margin-bottom: 1.8rem;
-  line-height: 1.3;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
 }
 
 .home-hero__tags {
