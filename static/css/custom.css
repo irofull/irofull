@@ -256,12 +256,14 @@ body::before {
    カテゴリグリッド
    ============================================================ */
 .home-cats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
 .home-cat {
+  flex: 1 1 calc(33.333% - 0.7rem);
+  min-width: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -281,9 +283,11 @@ body::before {
   color: #fff;
 }
 
-.home-cat--naze    { background: var(--c-purple); }
-.home-cat--kurashi { background: var(--c-green);  }
-.home-cat--sukina  { background: var(--c-yellow); }
+.home-cat--kurashi    { background: var(--c-purple); }
+.home-cat--naze       { background: var(--c-green);  }
+.home-cat--kangaeteru { background: var(--c-orange); }
+.home-cat--kizuki     { background: var(--c-pink);   }
+.home-cat--sukina     { background: var(--c-yellow); }
 
 .home-cat__icon {
   font-size: 1.8rem;
