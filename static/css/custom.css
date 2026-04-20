@@ -1,25 +1,7 @@
-/* ===== 5色カラーバー（最上部・固定） ===== */
-body::before {
-  content: '';
-  display: block;
-  height: 5px;
-  background: linear-gradient(to right,
-    #534AB7 0% 20%,
-    #1D9E75 20% 40%,
-    #D85A30 40% 60%,
-    #D4537E 60% 80%,
-    #BA7517 80% 100%
-  );
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+.color-bar {
+  display: flex;
+  height: 4px;
   width: 100%;
-  z-index: 9999;
-}
-
-body {
-  padding-top: 5px;
 }
 
 /* ===== ロゴ横のカラフル丸アイコン ===== */
@@ -63,15 +45,3 @@ body {
 .post-tags a.tag-kangaeteru    { background: #D85A30; }
 .post-tags a.tag-kizuki        { background: #D4537E; }
 .post-tags a.tag-sukina        { background: #BA7517; }
-
-body::before {
-  content: '';
-  display: block;
-  height: 4px;
-  background: linear-gradient(to right, #534AB7 20%, #1D9E75 20% 40%, #D85A30 40% 60%, #D4537E 60% 80%, #BA7517 80%);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-}
