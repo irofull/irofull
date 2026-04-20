@@ -1,4 +1,3 @@
-cat > content/posts/mercari-washing-machine.md << 'EOF'
 +++
 date = '2026-04-20T16:38:35+09:00'
 draft = false
