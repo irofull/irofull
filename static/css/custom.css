@@ -1,23 +1,301 @@
-/* ===== 5色カラーバー（最上部・固定） ===== */
+/* ============================================================
+   カラーパレット
+   ============================================================ */
+:root {
+  --c-purple : #534AB7;
+  --c-green  : #1D9E75;
+  --c-orange : #D85A30;
+  --c-pink   : #D4537E;
+  --c-yellow : #BA7517;
+}
+
+/* ============================================================
+   5色カラーバー（最上部・固定）
+   ============================================================ */
 body::before {
   content: '';
   display: block;
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 0; left: 0; right: 0;
   height: 4px;
   background: linear-gradient(to right,
-    #534AB7 0% 20%,
-    #1D9E75 20% 40%,
-    #D85A30 40% 60%,
-    #D4537E 60% 80%,
-    #BA7517 80% 100%
+    var(--c-purple)  0% 20%,
+    var(--c-green)  20% 40%,
+    var(--c-orange) 40% 60%,
+    var(--c-pink)   60% 80%,
+    var(--c-yellow) 80% 100%
   );
   z-index: 9999;
 }
 
-/* ===== タグ：カラフルなピル型 ===== */
+/* ============================================================
+   ヘッダー：ロゴテキスト
+   ============================================================ */
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.logo-text__ja {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.logo-text__en {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--c-purple);
+  letter-spacing: 0.05em;
+}
+
+.logo-text__tagline {
+  font-size: 0.65rem;
+  color: var(--secondary);
+  font-style: italic;
+  white-space: nowrap;
+}
+
+/* ============================================================
+   フッター（黒背景）
+   ============================================================ */
+.site-footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 1.5rem var(--gap);
+  margin-top: 0;
+}
+
+.site-footer a {
+  color: #aaa;
+}
+
+/* ============================================================
+   ヒーローセクション
+   ============================================================ */
+.home-hero {
+  text-align: center;
+  padding: 3.5rem var(--gap) 2.5rem;
+}
+
+.home-hero__title {
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+.home-hero__tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.htag {
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.htag--kurashi     { background: var(--c-green);  }
+.htag--naze        { background: var(--c-purple); }
+.htag--kangaeteru  { background: var(--c-orange); }
+.htag--kizuki      { background: var(--c-pink);   }
+.htag--sukina      { background: var(--c-yellow); }
+
+.home-hero__sub {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--secondary);
+  margin: 0;
+}
+
+/* ============================================================
+   黒バンド
+   ============================================================ */
+.home-band {
+  background: #111;
+  color: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  padding: 1rem var(--gap);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  margin: 0 calc(-1 * var(--gap));
+  width: calc(100% + 2 * var(--gap));
+}
+
+.home-band__sep {
+  color: #555;
+}
+
+/* ============================================================
+   汎用セクション
+   ============================================================ */
+.home-section {
+  padding: 2.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.home-section--alt {
+  background: var(--code-bg);
+  margin: 0 calc(-1 * var(--gap));
+  padding: 2.5rem var(--gap);
+  width: calc(100% + 2 * var(--gap));
+}
+
+.home-section__inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.home-section__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--c-purple);
+  display: inline-block;
+}
+
+/* ============================================================
+   最新記事リスト
+   ============================================================ */
+.home-posts {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.2rem;
+  counter-reset: post-counter;
+}
+
+.home-posts__item {
+  counter-increment: post-counter;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.home-posts__item::before {
+  content: counter(post-counter, decimal-leading-zero);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--c-purple);
+  flex-shrink: 0;
+  min-width: 1.8rem;
+}
+
+.home-posts__link {
+  flex: 1;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--primary);
+  line-height: 1.4;
+}
+
+.home-posts__link:hover {
+  color: var(--c-purple);
+}
+
+.home-posts__date {
+  font-size: 0.75rem;
+  color: var(--secondary);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.home-posts__empty {
+  color: var(--secondary);
+  font-size: 0.9rem;
+}
+
+.home-more {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--c-purple);
+  text-decoration: none;
+}
+
+.home-more:hover {
+  text-decoration: underline;
+}
+
+/* ============================================================
+   カテゴリグリッド
+   ============================================================ */
+.home-cats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.home-cat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.5rem 1rem;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: transform 0.15s, opacity 0.15s;
+}
+
+.home-cat:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+  color: #fff;
+}
+
+.home-cat--naze    { background: var(--c-purple); }
+.home-cat--kurashi { background: var(--c-green);  }
+.home-cat--sukina  { background: var(--c-yellow); }
+
+.home-cat__icon {
+  font-size: 1.8rem;
+}
+
+.home-cat__name {
+  font-size: 0.9rem;
+}
+
+/* ============================================================
+   Aboutセクション
+   ============================================================ */
+.home-about__text {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+/* ============================================================
+   記事タグ（カラフルなピル型）
+   ============================================================ */
 .post-tags a {
   display: inline-block;
   padding: 3px 12px;
@@ -30,13 +308,34 @@ body::before {
   transition: opacity 0.2s;
 }
 
-.post-tags a:hover {
-  opacity: 0.8;
-}
+.post-tags a:hover { opacity: 0.8; }
 
-/* タグ別カラー（JSでクラスを付与） */
-.post-tags a.tag-kurashi     { background: #1D9E75; }
-.post-tags a.tag-naze        { background: #534AB7; }
-.post-tags a.tag-kangaeteru  { background: #D85A30; }
-.post-tags a.tag-kizuki      { background: #D4537E; }
-.post-tags a.tag-sukina      { background: #BA7517; }
+.post-tags a.tag-kurashi    { background: var(--c-green);  }
+.post-tags a.tag-naze       { background: var(--c-purple); }
+.post-tags a.tag-kangaeteru { background: var(--c-orange); }
+.post-tags a.tag-kizuki     { background: var(--c-pink);   }
+.post-tags a.tag-sukina     { background: var(--c-yellow); }
+
+/* ============================================================
+   レスポンシブ
+   ============================================================ */
+@media (max-width: 480px) {
+  .home-cats {
+    grid-template-columns: 1fr;
+  }
+
+  .home-band {
+    flex-direction: column;
+    gap: 0.3rem;
+    text-align: center;
+  }
+
+  .home-band__sep {
+    display: none;
+  }
+
+  .home-posts__item {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

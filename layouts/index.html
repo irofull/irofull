@@ -1,0 +1,77 @@
+{{ define "main" }}
+
+{{- /* ヒーローセクション */}}
+<section class="home-hero">
+  <h1 class="home-hero__title">人生のあれこれを、色とりどりに。</h1>
+  <div class="home-hero__tags">
+    <span class="htag htag--kurashi">暮らし</span>
+    <span class="htag htag--naze">なぜだろう</span>
+    <span class="htag htag--kangaeteru">ずっと考えてること</span>
+    <span class="htag htag--kizuki">気づき</span>
+    <span class="htag htag--sukina">好きなこと</span>
+  </div>
+  <p class="home-hero__sub">Colorful Stories from Everyday Life</p>
+</section>
+
+{{- /* 黒バンド */}}
+<section class="home-band">
+  <span>日本語とときどき英語でお届け</span>
+  <span class="home-band__sep" aria-hidden="true">·</span>
+  <span>日常の発見を色とりどりに</span>
+  <span class="home-band__sep" aria-hidden="true">·</span>
+  <span>答えのない問いも書きます</span>
+</section>
+
+{{- /* 最新記事 */}}
+<section class="home-section">
+  <div class="home-section__inner">
+    <h2 class="home-section__title">最新記事</h2>
+    {{- $posts := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{- $posts = where $posts "Params.hiddenInHomeList" "!=" "true" }}
+    {{- if $posts }}
+    <ol class="home-posts">
+      {{- range first 5 $posts }}
+      <li class="home-posts__item">
+        <a href="{{ .Permalink }}" class="home-posts__link">{{ .Title }}</a>
+        <time class="home-posts__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+      </li>
+      {{- end }}
+    </ol>
+    {{- else }}
+    <p class="home-posts__empty">記事を準備中です。</p>
+    {{- end }}
+    <a href="/posts/" class="home-more">記事一覧へ →</a>
+  </div>
+</section>
+
+{{- /* カテゴリ */}}
+<section class="home-section home-section--alt">
+  <div class="home-section__inner">
+    <h2 class="home-section__title">カテゴリ</h2>
+    <div class="home-cats">
+      <a href="/tags/%E3%81%AA%E3%81%9C%E3%81%A0%E3%82%8D%E3%81%86/" class="home-cat home-cat--naze">
+        <span class="home-cat__icon">🤔</span>
+        <span class="home-cat__name">なぜだろう</span>
+      </a>
+      <a href="/tags/%E6%9A%AE%E3%82%89%E3%81%97/" class="home-cat home-cat--kurashi">
+        <span class="home-cat__icon">🏡</span>
+        <span class="home-cat__name">暮らし</span>
+      </a>
+      <a href="/tags/%E5%A5%BD%E3%81%8D%E3%81%AA%E3%81%93%E3%81%A8/" class="home-cat home-cat--sukina">
+        <span class="home-cat__icon">⭐</span>
+        <span class="home-cat__name">好きなこと</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+{{- /* About */}}
+<section class="home-section">
+  <div class="home-section__inner home-about">
+    <h2 class="home-section__title">About</h2>
+    <p class="home-about__text">日々のこと、なぜだろうと思ったこと、ずっと考えていること。答えのないことも含めて、色とりどりに書いていきます。日本語とときどき英語でお届けします。</p>
+    <a href="/about/" class="home-more">もっと読む →</a>
+  </div>
+</section>
+
+{{ end }}
