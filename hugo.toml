@@ -4,8 +4,12 @@ title = "イロフル"
 theme = "PaperMod"
 
 [params]
-  description = "日々のこと、哲学的なこと、普遍的なこと"
   author = "irofull"
+  description = "人生のあれこれを、色とりどりに。"
+
+[params.homeInfoParams]
+  Title = "イロフル / irofull"
+  Content = "人生のあれこれを、色とりどりに。\n\n# 暮らし　# なぜだろう　# ずっと考えてること　# 気づき　# 好きなこと（旅行・編み物・食べ物 etc…)\n\n*Colorful Stories from Everyday Life*"
 
 [menu]
   [[menu.main]]
@@ -16,3 +20,7 @@ theme = "PaperMod"
     name = "記事一覧"
     url = "/posts/"
     weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
