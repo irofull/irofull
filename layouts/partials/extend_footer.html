@@ -1,10 +1,10 @@
 <script>
 document.querySelectorAll('.post-tags a').forEach(function(a) {
   var text = a.textContent.trim();
-  if (text.indexOf('暮らし') !== -1)          a.classList.add('tag-kurashi');
-  else if (text.indexOf('なぜだろう') !== -1)  a.classList.add('tag-naze');
+  if      (text.indexOf('暮らし') !== -1)          a.classList.add('tag-kurashi');
+  else if (text.indexOf('なぜだろう') !== -1)       a.classList.add('tag-naze');
   else if (text.indexOf('ずっと考えてること') !== -1) a.classList.add('tag-kangaeteru');
-  else if (text.indexOf('気づき') !== -1)      a.classList.add('tag-kizuki');
-  else if (text.indexOf('好きなこと') !== -1)  a.classList.add('tag-sukina');
+  else if (text.indexOf('気づき') !== -1)           a.classList.add('tag-kizuki');
+  else if (text.indexOf('好きなこと') !== -1)       a.classList.add('tag-sukina');
 });
 </script>
