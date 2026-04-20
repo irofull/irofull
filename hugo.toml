@@ -1,0 +1,18 @@
+baseURL = "https://irofull.pages.dev/"
+languageCode = "ja"
+title = "イロフル"
+theme = "PaperMod"
+
+[params]
+  description = "日々のこと、哲学的なこと、普遍的なこと"
+  author = "irofull"
+
+[menu]
+  [[menu.main]]
+    name = "ホーム"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "記事一覧"
+    url = "/posts/"
+    weight = 2
