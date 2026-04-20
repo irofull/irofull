@@ -90,11 +90,48 @@ body::before {
 }
 
 /* ============================================================
-   ヒーローセクション
+   写真ヒーロー
+   ============================================================ */
+.home-hero-image {
+  position: relative;
+  background-image: url('/images/hero.jpg');
+  background-size: cover;
+  background-position: center 60%;
+  min-height: 420px;
+  margin: 0 calc(-1 * var(--gap));
+  width: calc(100% + 2 * var(--gap));
+  display: flex;
+  align-items: center;
+}
+
+.home-hero-image__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.home-hero-image__text {
+  position: relative;
+  z-index: 1;
+  padding: 2rem var(--gap);
+}
+
+.home-hero-image__title {
+  color: #fff;
+  font-size: clamp(1.8rem, 5vw, 2.8rem);
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  line-height: 1.4;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  margin: 0;
+}
+
+/* ============================================================
+   ヒーローセクション（タグ・サブタイトル）
    ============================================================ */
 .home-hero {
   text-align: left;
-  padding: 3.5rem var(--gap) 2.5rem;
+  padding: 1.5rem var(--gap) 2rem;
 }
 
 .home-hero__title {
