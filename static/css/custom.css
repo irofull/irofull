@@ -108,14 +108,14 @@ body::before {
 .home-hero-image__overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.08);  /* ごく薄いオーバーレイ */
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .home-hero-image__text {
-  position: relative;
+  position: absolute;
   z-index: 1;
-  padding: 1.8rem var(--gap) 0;  /* 上部に配置 */
-  width: 100%;
+  top: 22%;
+  left: var(--gap);
 }
 
 .home-hero-image__title {
