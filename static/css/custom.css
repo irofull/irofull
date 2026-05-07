@@ -96,13 +96,16 @@ body::before {
   position: relative;
   background-image: url('/images/hero.png');
   background-size: cover;
-  background-position: center 30%;  /* 空が上、チューリップが下に見えるよう */
+  background-position: center 30%;
   min-height: 420px;
   margin-left: calc(-1 * var(--gap));
   margin-right: calc(-1 * var(--gap));
   display: flex;
-  align-items: flex-start;  /* テキストを上部に配置 */
+  align-items: flex-start;
   overflow: hidden;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .home-hero-image__overlay {
