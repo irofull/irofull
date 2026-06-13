@@ -10,23 +10,8 @@
 }
 
 /* ============================================================
-   5色カラーバー（最上部・固定）
+   5色カラーバー → ロゴドットに変更済み（下記参照）
    ============================================================ */
-body::before {
-  content: '';
-  display: block;
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  height: 4px;
-  background: linear-gradient(to right,
-    var(--c-purple)  0% 20%,
-    var(--c-green)  20% 40%,
-    var(--c-orange) 40% 60%,
-    var(--c-pink)   60% 80%,
-    var(--c-yellow) 80% 100%
-  );
-  z-index: 9999;
-}
 
 /* ============================================================
    ヘッダー：中央揃え縦スタック型
@@ -36,7 +21,7 @@ body::before {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 1.5rem var(--gap) 0.8rem;
+  padding: 0.45rem var(--gap) 0.35rem;
   position: relative;
 }
 
@@ -49,10 +34,11 @@ body::before {
   align-items: center;
   gap: 0.5rem;
   text-decoration: none;
+  font-size: 2.1rem;
 }
 
 .logo-title {
-  font-size: 2rem;
+  font-size: 2.1rem;
   font-weight: 500;
   color: var(--primary);
   letter-spacing: 0.05em;
@@ -63,6 +49,45 @@ body::before {
   font-style: italic;
   color: var(--secondary);
 }
+
+/* ─── ロゴドット ─────────────────────────────── */
+.logo-dots {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 2px;
+}
+
+.logo-dot {
+  position: relative;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.logo-dot--3 { width: 14px; height: 14px; }
+.logo-dot--5 { width: 8px;  height: 8px;  }
+
+.logo-dot--1 { background: var(--c-purple); }
+.logo-dot--2 { background: var(--c-green);  }
+.logo-dot--3 { background: var(--c-orange); }
+.logo-dot--4 { background: var(--c-pink);   }
+.logo-dot--5 { background: var(--c-yellow); }
+
+.logo-dot--1 { top:  0px; }
+.logo-dot--2 { top: -2px; }
+.logo-dot--3 { top:  1px; }
+.logo-dot--4 { top: -3px; }
+.logo-dot--5 { top: -1px; }
+
+.logo:hover .logo-dot { transition: transform 0.3s ease; }
+.logo:hover .logo-dot--1 { transform: translateY(-5px); transition-delay: 0s;    }
+.logo:hover .logo-dot--2 { transform: translateY(-5px); transition-delay: 0.06s; }
+.logo:hover .logo-dot--3 { transform: translateY(-5px); transition-delay: 0.12s; }
+.logo:hover .logo-dot--4 { transform: translateY(-5px); transition-delay: 0.18s; }
+.logo:hover .logo-dot--5 { transform: translateY(-5px); transition-delay: 0.24s; }
 
 .logo-switches {
   position: absolute;
@@ -396,4 +421,391 @@ body::before {
     flex-direction: column;
     gap: 0.25rem;
   }
+}
+
+/* ============================================================
+   新TOP: カラーパレット（上書き・ウォーム系）
+   ============================================================ */
+:root {
+  --iro-cream    : #FFFDF5;
+  --iro-terra    : #C4613A;
+  --iro-mustard  : #D4941A;
+  --iro-green    : #4A8C5C;
+  --iro-text     : #3A3028;
+  --iro-muted    : #8A7F72;
+  --iro-border   : #EDE8DF;
+  --iro-max      : 720px;
+}
+
+/* ─── Hero ──────────────────────────────────── */
+.iro-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.iro-hero__img {
+  width: 100%;
+  display: block;
+  max-height: 480px;
+  object-fit: cover;
+  object-position: center 35%;
+}
+
+.iro-hero__copy {
+  position: absolute;
+  top: 13%;
+  left: 5%;
+  right: 48%;
+  padding: 0;
+  background: none;
+  text-align: left;
+}
+
+.iro-hero__main {
+  font-size: clamp(1.0rem, 3.0vw, 1.35rem);
+  font-weight: 700;
+  color: #8a4a2e;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.35rem;
+  text-shadow: none;
+}
+
+.iro-hero__sub {
+  font-size: clamp(0.6rem, 1.6vw, 0.7rem);
+  color: rgba(138,74,46,0.72);
+  font-style: italic;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.iro-hero__arch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* ─── Category Nav ──────────────────────────── */
+.iro-cat-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.2rem 1.5rem 1.6rem;
+  background: var(--iro-cream);
+  flex-wrap: wrap;
+}
+
+.iro-cat-tab {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 2px solid transparent;
+}
+
+.iro-cat-tab:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  text-decoration: none;
+}
+
+.iro-cat-tab--tabi  { background: #FFF0EB; color: var(--iro-terra);   border-color: #F5C4B4; }
+.iro-cat-tab--shoku { background: #FFF8E6; color: var(--iro-mustard); border-color: #F0D898; }
+.iro-cat-tab--ami     { background: #EBF4EF; color: var(--iro-green);   border-color: #B4D9C2; }
+.iro-cat-tab--kurashi { background: #F0EEFF; color: #5B4FCF;             border-color: #C9C1F5; }
+
+.iro-cat-tab__icon { display: flex; align-items: center; }
+.iro-cat-tab__label { letter-spacing: 0.05em; }
+
+/* ─── Sections ──────────────────────────────── */
+.iro-section {
+  padding: 2.5rem 1.5rem;
+  background: var(--iro-cream);
+}
+
+.iro-section--alt {
+  background: #F5F0E8;
+}
+
+.iro-section__inner {
+  max-width: var(--iro-max);
+  margin: 0 auto;
+}
+
+.iro-section__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--iro-text);
+  margin: 0 0 1.4rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--iro-border);
+}
+
+/* ─── Article Cards ─────────────────────────── */
+.iro-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.iro-card {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid var(--iro-border);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.iro-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.iro-card__link {
+  display: block;
+  padding: 1.1rem 1.2rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.iro-card__cat {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.6rem;
+  border-radius: 20px;
+  margin-bottom: 0.5rem;
+}
+
+.iro-card__cat--{ color: var(--iro-muted); background: var(--iro-border); }
+.iro-card__cat--旅    { color: var(--iro-terra);   background: #FFF0EB; }
+.iro-card__cat--食    { color: var(--iro-mustard); background: #FFF8E6; }
+.iro-card__cat--編み物 { color: var(--iro-green);   background: #EBF4EF; }
+.iro-card__cat--暮らし { color: #5B4FCF;             background: #F0EEFF; }
+
+.iro-card__title {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--iro-text);
+  line-height: 1.6;
+  margin: 0 0 0.5rem;
+}
+
+.iro-card__date {
+  font-size: 0.73rem;
+  color: var(--iro-muted);
+}
+
+.iro-more-wrap {
+  text-align: right;
+  margin-top: 1.2rem;
+}
+
+.iro-more {
+  font-size: 0.85rem;
+  color: var(--iro-terra);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.iro-more:hover { text-decoration: underline; }
+
+/* ─── Category Pickups ──────────────────────── */
+.iro-pickups {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.iro-pickup {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.2rem;
+  border: 1px solid var(--iro-border);
+}
+
+.iro-pickup__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.iro-pickup__cat {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.iro-pickup--tabi  .iro-pickup__cat { color: var(--iro-terra); }
+.iro-pickup--tabi  .iro-pickup__icon { color: var(--iro-terra); }
+.iro-pickup--shoku .iro-pickup__cat { color: var(--iro-mustard); }
+.iro-pickup--shoku .iro-pickup__icon { color: var(--iro-mustard); }
+.iro-pickup--ami   .iro-pickup__cat { color: var(--iro-green); }
+.iro-pickup--ami   .iro-pickup__icon { color: var(--iro-green); }
+
+.iro-pickup__icon { display: flex; align-items: center; }
+
+.iro-pickup__article {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 0.8rem;
+}
+
+.iro-pickup__title {
+  display: block;
+  font-size: 0.83rem;
+  font-weight: 600;
+  color: var(--iro-text);
+  line-height: 1.55;
+  margin-bottom: 0.25rem;
+}
+
+.iro-pickup__article:hover .iro-pickup__title { color: var(--iro-terra); }
+
+.iro-pickup__date {
+  font-size: 0.7rem;
+  color: var(--iro-muted);
+}
+
+.iro-pickup__empty {
+  font-size: 0.8rem;
+  color: var(--iro-muted);
+  margin: 0 0 0.8rem;
+}
+
+.iro-pickup__more {
+  font-size: 0.75rem;
+  color: var(--iro-muted);
+  text-decoration: none;
+}
+
+.iro-pickup__more:hover { color: var(--iro-terra); text-decoration: underline; }
+
+/* ─── About Link ────────────────────────────── */
+.iro-about-link {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.iro-about-link__text {
+  font-size: 0.9rem;
+  color: var(--iro-muted);
+  margin: 0 0 1rem;
+}
+
+.iro-about-link__btn {
+  display: inline-block;
+  padding: 0.6rem 1.6rem;
+  border: 2px solid var(--iro-terra);
+  color: var(--iro-terra);
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.iro-about-link__btn:hover {
+  background: var(--iro-terra);
+  color: #fff;
+  text-decoration: none;
+}
+
+.iro-empty { color: var(--iro-muted); font-size: 0.9rem; }
+
+/* ─── Featured Post ─────────────────────────── */
+.iro-featured__label {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  background: var(--iro-terra);
+  color: #fff;
+  padding: 0.2rem 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 0.55rem;
+}
+
+.iro-featured__card {
+  display: block;
+  background: #fff;
+  border: 2px solid var(--iro-terra);
+  border-radius: 12px;
+  padding: 1.2rem 1.4rem;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s;
+}
+
+.iro-featured__card:hover {
+  box-shadow: 0 6px 20px rgba(196, 97, 58, 0.18);
+  text-decoration: none;
+  color: inherit;
+}
+
+.iro-featured__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--iro-text);
+  line-height: 1.6;
+  margin: 0.4rem 0 0.5rem;
+}
+
+/* ─── Profile Card ──────────────────────────── */
+.iro-profile-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid var(--iro-border);
+  padding: 1.6rem 1.8rem;
+  text-align: center;
+}
+
+.iro-profile-card__name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--iro-text);
+  margin: 0 0 0.5rem;
+}
+
+.iro-profile-card__bio {
+  font-size: 0.85rem;
+  color: var(--iro-muted);
+  line-height: 1.7;
+  margin: 0 0 1rem;
+}
+
+.iro-profile-card__link {
+  display: inline-block;
+  padding: 0.5rem 1.4rem;
+  border: 1.5px solid var(--iro-terra);
+  color: var(--iro-terra);
+  border-radius: 50px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.iro-profile-card__link:hover {
+  background: var(--iro-terra);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ─── Responsive ────────────────────────────── */
+@media (max-width: 640px) {
+  .iro-hero__img { max-height: 280px; }
+  .iro-hero__copy { top: 10%; left: 4%; right: 42%; }
+  .iro-cards { grid-template-columns: 1fr; }
+  .iro-pickups { grid-template-columns: 1fr; }
+  .iro-cat-nav { gap: 0.5rem; justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; }
+  .iro-cat-tab { padding: 0.5rem 1rem; font-size: 0.85rem; flex-shrink: 0; }
 }

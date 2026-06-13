@@ -4,14 +4,17 @@ title = "イロフル"
 theme = "PaperMod"
 copyright = "© 2026 イロフル · irofull"
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [params]
   author = "irofull"
-  description = "人生のあれこれを、色とりどりに。"
+  description = "ときめきを追いかけて、ワクワクに出会う。"
   mainSections = ["posts"]
-
-[params.label]
-  icon = "/images/logo-icon.svg"
-  iconHeight = 12
+  tagline = "ときめきを追いかけて、ワクワクに出会う。"
+  taglineEn = "Chasing sparks, finding wonder."
+  featuredPost = "posts/sake-knitting"
 
 [menu]
   [[menu.main]]

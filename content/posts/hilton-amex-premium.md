@@ -3,6 +3,7 @@ date = '2026-05-08T00:00:00+09:00'
 draft = false
 title = 'ヒルトンアメックスプレミアム、年会費66,000円を毎年更新し続ける理由'
 tags = ["クレジットカード", "ヒルトン", "旅行", "お金", "好きなこと"]
+categories = ["旅"]
 [cover]
   image = "/images/hilton_card/hilton-amex-eyecatch.png"
   style = "max-width: 600px; margin: 0 auto;"
