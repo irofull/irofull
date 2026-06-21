@@ -809,3 +809,91 @@
   .iro-cat-nav { gap: 0.5rem; justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; }
   .iro-cat-tab { padding: 0.5rem 1rem; font-size: 0.85rem; flex-shrink: 0; }
 }
+
+/* ─── About ページ ──────────────────────────── */
+.iro-about__inner {
+  max-width: 560px;
+  margin: 2rem auto 3rem;
+  padding: 0 1.5rem;
+}
+
+.iro-about__icon-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+
+.iro-about__icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: url('/images/irori-icon.png');
+  background-size: cover;
+  background-position: center top;
+  border: 3px solid var(--iro-border);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  margin: 0 auto;
+}
+
+.iro-about__body {
+  font-size: 0.95rem;
+  line-height: 1.95;
+  color: var(--iro-text);
+}
+
+.iro-about__body p {
+  margin: 0 0 1.1rem;
+}
+
+.iro-about__body em {
+  color: var(--iro-terra);
+  font-style: italic;
+}
+
+/* ─── TOP プロフィールカード アイコン ─── */
+.iro-profile-card .iro-profile-card__icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: url('/images/irori-icon.png');
+  background-size: cover;
+  background-position: center top;
+  margin: 0 auto 1rem;
+  border: 2px solid var(--iro-border);
+}
+
+/* ─── 記事本文 画像サイズ・スペース ─── */
+.post-content img {
+  max-height: 500px;
+  width: auto;
+  display: block;
+  margin: 0 auto 24px;
+}
+
+/* ─── アイキャッチ画像サイズ制限 ─── */
+.entry-cover img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* ─── 料理写真 横並びペア ─── */
+.photo-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 0 auto 24px;
+  max-width: 100%;
+}
+
+.post-content .photo-pair img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .photo-pair {
+    grid-template-columns: 1fr;
+  }
+}

@@ -8,6 +8,11 @@ copyright = "© 2026 イロフル · irofull"
   tag = "tags"
   category = "categories"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   author = "irofull"
   description = "ときめきを追いかけて、ワクワクに出会う。"
