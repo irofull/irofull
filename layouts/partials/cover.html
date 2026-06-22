@@ -54,6 +54,17 @@
         </a>
     {{- end -}}
 
+    {{- $overlayText    := .Params.cover.overlayText }}
+    {{- $overlaySubText := .Params.cover.overlaySubText }}
+    {{- with $overlayText }}
+    <div class="cover-overlay">
+      <p class="cover-overlay__title">{{ . }}</p>
+      {{- with $overlaySubText }}
+      <p class="cover-overlay__sub">{{ . }}</p>
+      {{- end }}
+    </div>
+    {{- end }}
+
     {{- /*  Display Caption  */}}
     {{- if $.IsSingle }}
         {{ with .Params.cover.caption -}}
