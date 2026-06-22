@@ -886,6 +886,11 @@
   object-fit: cover;
 }
 
+/* ─── 記事タイトル h1 フォントサイズ調整 ─── */
+.post-title {
+  font-size: 36px;
+}
+
 /* ─── カバー画像テキストオーバーレイ ─── */
 .entry-cover { position: relative; }
 
