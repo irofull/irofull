@@ -7,8 +7,6 @@ categories = ["旅"]
 description = "ヒルトンアメックスプレミアムの無料宿泊特典でウォルドーフ・アストリア大阪に泊まった体験記。屋内プール、朝食、スタッフの気配りまで詳しくレポートします。"
 [cover]
   image = "/images/waldorf-eyecatch-v3.jpg"
-  overlayText = "ウォルドーフ・アストリア大阪"
-  overlaySubText = "大阪の空の上で過ごす、特別な1泊"
 +++
 
 特別な体験を、大阪の空の上で。
