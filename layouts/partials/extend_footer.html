@@ -12,3 +12,21 @@ document.querySelectorAll('.post-tags a').forEach(function(a) {
   else if (text.indexOf('お金') !== -1)              a.classList.add('tag-sukina');
 });
 </script>
+
+<script>
+document.querySelectorAll('.photo-pair img').forEach(function(img) {
+  img.addEventListener('click', function() {
+    var overlay = document.createElement('div');
+    overlay.className = 'lightbox-overlay';
+    var full = document.createElement('img');
+    full.src = img.src;
+    full.alt = img.alt;
+    overlay.appendChild(full);
+    overlay.addEventListener('click', function() { overlay.remove(); });
+    document.addEventListener('keydown', function esc(e) {
+      if (e.key === 'Escape') { overlay.remove(); document.removeEventListener('keydown', esc); }
+    });
+    document.body.appendChild(overlay);
+  });
+});
+</script>
