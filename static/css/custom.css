@@ -753,6 +753,15 @@
   text-decoration: none;
   color: inherit;
   transition: box-shadow 0.2s;
+  overflow: hidden;
+}
+
+.iro-featured__image {
+  display: block;
+  width: calc(100% + 2.8rem);
+  height: 180px;
+  object-fit: cover;
+  margin: -1.2rem -1.4rem 1rem;
 }
 
 .iro-featured__card:hover {

@@ -80,6 +80,9 @@
     <div class="iro-featured">
       <span class="iro-featured__label">おすすめ記事</span>
       <a href="{{ $featured.Permalink }}" class="iro-featured__card">
+        {{- with $featured.Params.cover.image }}
+        <img src="{{ . }}" alt="{{ $featured.Title }}" class="iro-featured__image">
+        {{- end }}
         {{- if $featured.Params.categories }}
         <span class="iro-card__cat iro-card__cat--{{ index $featured.Params.categories 0 }}">{{ index $featured.Params.categories 0 }}</span>
         {{- end }}
@@ -105,6 +108,10 @@
       {{- range $posts }}
       <article class="iro-card">
         <a href="{{ .Permalink }}" class="iro-card__link">
+          {{- $page := . }}
+          {{- with .Params.cover.image }}
+          <img src="{{ . }}" alt="{{ $page.Title }}" class="iro-card__image">
+          {{- end }}
           {{- if .Params.categories }}
           <span class="iro-card__cat iro-card__cat--{{ index .Params.categories 0 }}">{{ index .Params.categories 0 }}</span>
           {{- end }}
