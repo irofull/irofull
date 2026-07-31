@@ -4,6 +4,9 @@ draft = false
 title = '酒場と編み場。なぜか同じ話ができる、不思議な共通点'
 tags = ["なぜだろう"]
 categories = ["編み物"]
+
+[cover]
+  image = "/images/sakaba-amiba/sakaba-amiba-eyecatch.png"
 +++
 
 お酒の席でなぜか本音が出た、何でも話せてしまった——そんな経験、ありませんか。
