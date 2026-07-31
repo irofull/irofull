@@ -5,7 +5,7 @@ title = '編み物を始めたら、心が整った話。祖母から受け継�
 tags = ["好きなこと"]
 categories = ["編み物"]
 [cover]
-  image = "/images/ami-eyecatch-v3.jpg"
+  image = "/images/ami-eyecatch-v3.webp"
 +++
 
 編み物をするようになって、何年か経つ。

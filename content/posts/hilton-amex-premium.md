@@ -5,7 +5,7 @@ title = 'ヒルトンアメックスプレミアム、年会費66,000円を毎�
 tags = ["クレジットカード", "ヒルトン", "旅行", "お金", "好きなこと"]
 categories = ["旅"]
 [cover]
-  image = "/images/hilton_card/hilton-amex-eyecatch.png"
+  image = "/images/hilton_card/hilton-amex-eyecatch-v5.webp"
   style = "max-width: 600px; margin: 0 auto;"
 +++
 

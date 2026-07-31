@@ -6,7 +6,7 @@ tags = ["なぜだろう"]
 categories = ["編み物"]
 
 [cover]
-  image = "/images/sakaba-amiba/sakaba-amiba-eyecatch.png"
+  image = "/images/sakaba-amiba/sakaba-amiba-eyecatch.webp"
 +++
 
 お酒の席でなぜか本音が出た、何でも話せてしまった——そんな経験、ありませんか。

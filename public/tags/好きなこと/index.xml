@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>好きなこと on イロフル</title>
-    <link>https://iro-full.com/tags/%E5%A5%BD%E3%81%8D%E3%81%AA%E3%81%93%E3%81%A8/</link>
+    <link>http://localhost:1313/tags/%E5%A5%BD%E3%81%8D%E3%81%AA%E3%81%93%E3%81%A8/</link>
     <description>Recent content in 好きなこと on イロフル</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>2026 イロフル · irofull</copyright>
     <lastBuildDate>Fri, 08 May 2026 00:00:00 +0900</lastBuildDate>
-    <atom:link href="https://iro-full.com/tags/%E5%A5%BD%E3%81%8D%E3%81%AA%E3%81%93%E3%81%A8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%A5%BD%E3%81%8D%E3%81%AA%E3%81%93%E3%81%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ヒルトンアメックスプレミアム、年会費66,000円を毎年更新し続ける理由</title>
-      <link>https://iro-full.com/posts/hilton-amex-premium/</link>
+      <link>http://localhost:1313/posts/hilton-amex-premium/</link>
       <pubDate>Fri, 08 May 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/posts/hilton-amex-premium/</guid>
+      <guid>http://localhost:1313/posts/hilton-amex-premium/</guid>
       <description>&lt;p&gt;年会費66,000円のクレジットカードを持っている。&lt;/p&gt;
 &lt;p&gt;毎年、更新のタイミングになると少し迷う。66,000円は決して安くない。他のカードに乗り換えようかと調べたこともある。それでも結局、更新する。&lt;/p&gt;
 &lt;p&gt;なぜそうなるのか、自分なりに整理してみた。&lt;/p&gt;
@@ -78,9 +78,9 @@
     </item>
     <item>
       <title>編み物を始めたら、心が整った話。祖母から受け継いだ、同じことの繰り返しの豊かさ</title>
-      <link>https://iro-full.com/posts/knitting-story/</link>
+      <link>http://localhost:1313/posts/knitting-story/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/posts/knitting-story/</guid>
+      <guid>http://localhost:1313/posts/knitting-story/</guid>
       <description>&lt;p&gt;編み物をするようになって、何年か経つ。
 始める前は、こんなに長く続くとは思っていなかった。&lt;/p&gt;
 &lt;h2 id=&#34;編み物を始めたきっかけ&#34;&gt;編み物を始めたきっかけ&lt;/h2&gt;

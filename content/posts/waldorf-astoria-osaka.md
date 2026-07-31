@@ -6,7 +6,7 @@ tags = ["ウォルドーフ・アストリア", "大阪ホテル", "ヒルトン
 categories = ["旅"]
 description = "ヒルトンアメックスプレミアムの無料宿泊特典でウォルドーフ・アストリア大阪に泊まった体験記。屋内プール、朝食、スタッフの気配りまで詳しくレポートします。"
 [cover]
-  image = "/images/waldorf-eyecatch-v3.jpg"
+  image = "/images/waldorf-eyecatch-v3.webp"
 +++
 
 特別な体験を、大阪の空の上で。
@@ -89,7 +89,7 @@ description = "ヒルトンアメックスプレミアムの無料宿泊特典�
 
 翌朝の朝食は、2つの会場から選べました。
 
-![朝食レストランからの眺め](/images/waldorf-restaurant.jpg)
+![朝食レストランからの眺め](/images/waldorf-restaurant.webp)
 
 1つは眺めのいいレストラン。
 窓の外に大阪の街が広がっていて、景色は抜群でした。
@@ -98,7 +98,7 @@ description = "ヒルトンアメックスプレミアムの無料宿泊特典�
 もう1つは、大きなメイン会場。
 こちらはビュッフェが充実していて、種類もたっぷりありました。
 
-![朝食ビュッフェ](/images/waldorf-breakfast.jpg)
+![朝食ビュッフェ](/images/waldorf-breakfast.webp)
 
 わたしは和食をオーダーしました。
 ご飯、焼き魚、味噌汁、小鉢。
@@ -109,7 +109,7 @@ description = "ヒルトンアメックスプレミアムの無料宿泊特典�
 
 ## 翌朝のプール：貸切のような静けさ
 
-![屋内プール](/images/waldorf-pool.jpg)
+![屋内プール](/images/waldorf-pool.webp)
 
 前日に教えていただいたことを生かして、翌朝イチでプールへ向かいました。
 
@@ -123,7 +123,7 @@ description = "ヒルトンアメックスプレミアムの無料宿泊特典�
 
 ## 夫が気づいたこと
 
-![客室のベッド](/images/waldorf-bed.jpg)
+![客室のベッド](/images/waldorf-bed.webp)
 
 夫は、ホテルに泊まると必ずベッドのことを言います。
 今回も「このベッド、いい」と。

@@ -2,95 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on イロフル</title>
-    <link>https://iro-full.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on イロフル</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>2026 イロフル · irofull</copyright>
     <lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0900</lastBuildDate>
-    <atom:link href="https://iro-full.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ROKU KYOTO</title>
-      <link>https://iro-full.com/tags/roku-kyoto/</link>
+      <link>http://localhost:1313/tags/roku-kyoto/</link>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/tags/roku-kyoto/</guid>
+      <guid>http://localhost:1313/tags/roku-kyoto/</guid>
       <description></description>
     </item>
     <item>
       <title>ヒルトン</title>
-      <link>https://iro-full.com/tags/%E3%83%92%E3%83%AB%E3%83%88%E3%83%B3/</link>
+      <link>http://localhost:1313/tags/%E3%83%92%E3%83%AB%E3%83%88%E3%83%B3/</link>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/tags/%E3%83%92%E3%83%AB%E3%83%88%E3%83%B3/</guid>
+      <guid>http://localhost:1313/tags/%E3%83%92%E3%83%AB%E3%83%88%E3%83%B3/</guid>
       <description></description>
     </item>
     <item>
       <title>ヒルトンアメックスプレミアム</title>
-      <link>https://iro-full.com/tags/%E3%83%92%E3%83%AB%E3%83%88%E3%83%B3%E3%82%A2%E3%83%A1%E3%83%83%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0/</link>
+      <link>http://localhost:1313/tags/%E3%83%92%E3%83%AB%E3%83%88%E3%83%B3%E3%82%A2%E3%83%A1%E3%83%83%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0/</link>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/tags/%E3%83%92%E3%83%AB%E3%83%88%E3%83%B3%E3%82%A2%E3%83%A1%E3%83%83%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0/</guid>
+      <guid>http://localhost:1313/tags/%E3%83%92%E3%83%AB%E3%83%88%E3%83%B3%E3%82%A2%E3%83%A1%E3%83%83%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0/</guid>
       <description></description>
     </item>
     <item>
       <title>ラグジュアリーホテル</title>
-      <link>https://iro-full.com/tags/%E3%83%A9%E3%82%B0%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%9B%E3%83%86%E3%83%AB/</link>
+      <link>http://localhost:1313/tags/%E3%83%A9%E3%82%B0%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%9B%E3%83%86%E3%83%AB/</link>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/tags/%E3%83%A9%E3%82%B0%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%9B%E3%83%86%E3%83%AB/</guid>
+      <guid>http://localhost:1313/tags/%E3%83%A9%E3%82%B0%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%9B%E3%83%86%E3%83%AB/</guid>
       <description></description>
     </item>
     <item>
       <title>京都ホテル</title>
-      <link>https://iro-full.com/tags/%E4%BA%AC%E9%83%BD%E3%83%9B%E3%83%86%E3%83%AB/</link>
+      <link>http://localhost:1313/tags/%E4%BA%AC%E9%83%BD%E3%83%9B%E3%83%86%E3%83%AB/</link>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/tags/%E4%BA%AC%E9%83%BD%E3%83%9B%E3%83%86%E3%83%AB/</guid>
+      <guid>http://localhost:1313/tags/%E4%BA%AC%E9%83%BD%E3%83%9B%E3%83%86%E3%83%AB/</guid>
       <description></description>
     </item>
     <item>
       <title>お金</title>
-      <link>https://iro-full.com/tags/%E3%81%8A%E9%87%91/</link>
+      <link>http://localhost:1313/tags/%E3%81%8A%E9%87%91/</link>
       <pubDate>Fri, 08 May 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/tags/%E3%81%8A%E9%87%91/</guid>
+      <guid>http://localhost:1313/tags/%E3%81%8A%E9%87%91/</guid>
       <description></description>
     </item>
     <item>
       <title>クレジットカード</title>
-      <link>https://iro-full.com/tags/%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89/</link>
+      <link>http://localhost:1313/tags/%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89/</link>
       <pubDate>Fri, 08 May 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/tags/%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89/</guid>
+      <guid>http://localhost:1313/tags/%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89/</guid>
       <description></description>
     </item>
     <item>
       <title>好きなこと</title>
-      <link>https://iro-full.com/tags/%E5%A5%BD%E3%81%8D%E3%81%AA%E3%81%93%E3%81%A8/</link>
+      <link>http://localhost:1313/tags/%E5%A5%BD%E3%81%8D%E3%81%AA%E3%81%93%E3%81%A8/</link>
       <pubDate>Fri, 08 May 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/tags/%E5%A5%BD%E3%81%8D%E3%81%AA%E3%81%93%E3%81%A8/</guid>
+      <guid>http://localhost:1313/tags/%E5%A5%BD%E3%81%8D%E3%81%AA%E3%81%93%E3%81%A8/</guid>
       <description></description>
     </item>
     <item>
       <title>旅行</title>
-      <link>https://iro-full.com/tags/%E6%97%85%E8%A1%8C/</link>
+      <link>http://localhost:1313/tags/%E6%97%85%E8%A1%8C/</link>
       <pubDate>Fri, 08 May 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/tags/%E6%97%85%E8%A1%8C/</guid>
+      <guid>http://localhost:1313/tags/%E6%97%85%E8%A1%8C/</guid>
       <description></description>
     </item>
     <item>
       <title>ウォルドーフ・アストリア</title>
-      <link>https://iro-full.com/tags/%E3%82%A6%E3%82%A9%E3%83%AB%E3%83%89%E3%83%BC%E3%83%95%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AA%E3%82%A2/</link>
+      <link>http://localhost:1313/tags/%E3%82%A6%E3%82%A9%E3%83%AB%E3%83%89%E3%83%BC%E3%83%95%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AA%E3%82%A2/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/tags/%E3%82%A6%E3%82%A9%E3%83%AB%E3%83%89%E3%83%BC%E3%83%95%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AA%E3%82%A2/</guid>
+      <guid>http://localhost:1313/tags/%E3%82%A6%E3%82%A9%E3%83%AB%E3%83%89%E3%83%BC%E3%83%95%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AA%E3%82%A2/</guid>
       <description></description>
     </item>
     <item>
       <title>なぜだろう</title>
-      <link>https://iro-full.com/tags/%E3%81%AA%E3%81%9C%E3%81%A0%E3%82%8D%E3%81%86/</link>
+      <link>http://localhost:1313/tags/%E3%81%AA%E3%81%9C%E3%81%A0%E3%82%8D%E3%81%86/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/tags/%E3%81%AA%E3%81%9C%E3%81%A0%E3%82%8D%E3%81%86/</guid>
+      <guid>http://localhost:1313/tags/%E3%81%AA%E3%81%9C%E3%81%A0%E3%82%8D%E3%81%86/</guid>
       <description></description>
     </item>
     <item>
       <title>大阪ホテル</title>
-      <link>https://iro-full.com/tags/%E5%A4%A7%E9%98%AA%E3%83%9B%E3%83%86%E3%83%AB/</link>
+      <link>http://localhost:1313/tags/%E5%A4%A7%E9%98%AA%E3%83%9B%E3%83%86%E3%83%AB/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0900</pubDate>
-      <guid>https://iro-full.com/tags/%E5%A4%A7%E9%98%AA%E3%83%9B%E3%83%86%E3%83%AB/</guid>
+      <guid>http://localhost:1313/tags/%E5%A4%A7%E9%98%AA%E3%83%9B%E3%83%86%E3%83%AB/</guid>
       <description></description>
     </item>
   </channel>

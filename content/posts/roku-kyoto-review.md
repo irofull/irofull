@@ -6,7 +6,7 @@ categories = ["旅"]
 tags = ["ROKU KYOTO", "京都ホテル", "ヒルトン", "ヒルトンアメックスプレミアム", "ラグジュアリーホテル"]
 description = "京都・鷹峯（たかがみね）にあるROKU KYOTOに宿泊した体験談。予約のコツ、温泉プール、朝食、雪の日の特別な思い出までを詳しくレポートします。"
 [cover]
-  image = "/images/roku-kyoto/eyecatch_roku-kyoto-v9.jpeg"
+  image = "/images/roku-kyoto/eyecatch_roku-kyoto-v9.webp"
 +++
 
 特別な日を、特別な場所で。
@@ -26,7 +26,7 @@ description = "京都・鷹峯（たかがみね）にあるROKU KYOTOに宿泊�
 - 都会の喧騒から離れて、静かな時間を過ごしたい方
 - 温泉やスパ、ホテルステイそのものを「目的」にした旅をしたい方
 
-![苔庭と水盤](/images/roku-kyoto/top_moss-garden.jpeg)
+![苔庭と水盤](/images/roku-kyoto/top_moss-garden.webp)
 
 ## 目次
 
@@ -87,24 +87,24 @@ ROKU KYOTOへは、京都駅からバスで向かいました。
 ロビーは、多くの宿泊者でにぎわっていました。
 空いている席に案内され、温かいお茶をいただきながら、しばらく過ごします。それだけで、もう心がほどけていくような時間でした。
 
-![チェックイン時のお茶サービス](/images/roku-kyoto/checkin_tea.jpeg)
+![チェックイン時のお茶サービス](/images/roku-kyoto/checkin_tea.webp)
 
 お部屋はツインタイプ。
 大きな窓いっぱいに、鷹峯（たかがみね）の山並みと木々が広がっていて、部屋にいるだけで森の中にいるような気分になります。
 窓辺には、ゆったり座れるソファスペースも。外の景色を眺めながら、くつろぐことができました。
 
-![窓辺のソファと森の景色](/images/roku-kyoto/room_window-view.jpeg)
-![ツインベッド](/images/roku-kyoto/room_twin-beds.jpeg)
+![窓辺のソファと森の景色](/images/roku-kyoto/room_window-view.webp)
+![ツインベッド](/images/roku-kyoto/room_twin-beds.webp)
 
 ミニバーには、ロングチップスやナッツ、ワインなどを用意。ちょっとした非日常感を演出してくれます。
 
-![ミニバー](/images/roku-kyoto/room_minibar.jpeg)
+![ミニバー](/images/roku-kyoto/room_minibar.webp)
 
 バスルームは、シャワーブースと浴槽（トイレ）が別々。アメニティも充実。クローゼットには、ふかふかのバスローブもありました。
 
-![クローゼットとバスローブ](/images/roku-kyoto/room_closet-robe.jpeg)
-![バスルーム（シャワーブース）](/images/roku-kyoto/bathroom_shower.jpeg)
-![バスルーム（トイレ）](/images/roku-kyoto/bathroom_toilet.jpeg)
+![クローゼットとバスローブ](/images/roku-kyoto/room_closet-robe.webp)
+![バスルーム（シャワーブース）](/images/roku-kyoto/bathroom_shower.webp)
+![バスルーム（トイレ）](/images/roku-kyoto/bathroom_toilet.webp)
 
 ## 温泉プールは事前予約必須
 
@@ -122,28 +122,28 @@ ROKU KYOTOの大きな魅力のひとつが、インフィニティ温泉プー�
 この写真、まだ明るい時間に撮ったもの。
 実際にお店に入ったのは、日が暮れてからでした。
 
-![わかどりの入口](/images/roku-kyoto/wakadori_entrance.jpeg)
+![わかどりの入口](/images/roku-kyoto/wakadori_entrance.webp)
 
 京野菜のピクルスから始まり、お刺身、鳥の串焼き、なすの湯葉あんかけ、出汁巻き卵、唐揚げ、天ぷらまで。どれも丁寧な仕事が感じられる、満足度の高い料理ばかりでした。
 
 <div class="photo-pair">
-  <img src="/images/roku-kyoto/wakadori_kushiyaki-sashimi.jpeg" alt="串焼きとお刺身">
-  <img src="/images/roku-kyoto/wakadori_nasu.jpeg" alt="なすの湯葉あんかけ">
+  <img src="/images/roku-kyoto/wakadori_kushiyaki-sashimi.webp" alt="串焼きとお刺身">
+  <img src="/images/roku-kyoto/wakadori_nasu.webp" alt="なすの湯葉あんかけ">
 </div>
 
 <div class="photo-pair">
-  <img src="/images/roku-kyoto/wakadori_pickles.jpeg" alt="京野菜のピクルス">
-  <img src="/images/roku-kyoto/wakadori_tamagoyaki.jpeg" alt="出汁巻き卵">
+  <img src="/images/roku-kyoto/wakadori_pickles.webp" alt="京野菜のピクルス">
+  <img src="/images/roku-kyoto/wakadori_tamagoyaki.webp" alt="出汁巻き卵">
 </div>
 
 <div class="photo-pair">
-  <img src="/images/roku-kyoto/wakadori_karaage.jpeg" alt="唐揚げ">
-  <img src="/images/roku-kyoto/wakadori_tempura.jpeg" alt="天ぷら">
+  <img src="/images/roku-kyoto/wakadori_karaage.webp" alt="唐揚げ">
+  <img src="/images/roku-kyoto/wakadori_tempura.webp" alt="天ぷら">
 </div>
 
 晩ご飯から戻ると、エントランスがいい感じにライトアップされていました。
 
-![夜の温泉プール](/images/roku-kyoto/onsen_evening-pool.jpeg)
+![夜の温泉プール](/images/roku-kyoto/onsen_evening-pool.webp)
 
 そして翌朝——なんと、雪が降ったのです。
 雪の中で入る温泉プールは、忘れられない体験になりました。
@@ -154,11 +154,11 @@ ROKU KYOTOの大きな魅力のひとつが、インフィニティ温泉プー�
 朝食は8時頃にレストランへ。ちょうど混み合う時間帯だったようで、いったんお部屋で待つようご案内されました。
 30分ほどして、電話で呼ばれます。
 
-![和定食プレート](/images/roku-kyoto/breakfast_japanese-plate.jpeg)
+![和定食プレート](/images/roku-kyoto/breakfast_japanese-plate.webp)
 
-![ビュッフェ](/images/roku-kyoto/breakfast_buffet.jpeg)
+![ビュッフェ](/images/roku-kyoto/breakfast_buffet.webp)
 
-![朝食メニュー](/images/roku-kyoto/breakfast_menu.jpeg)
+![朝食メニュー](/images/roku-kyoto/breakfast_menu.webp)
 
 メインは「Japanese Plate（ジャパニーズプレート）」を選択。出汁巻き卵、九条葱、焼魚、京漬物、ちりめん山椒、辛子明太子、ご飯、味噌汁。和の朝食を堪能できる内容でした。サラダなどはビュッフェ形式で、自由に選べます。
 
@@ -173,10 +173,10 @@ ROKU KYOTOの大きな魅力のひとつが、インフィニティ温泉プー�
 鷹峯（たかがみね）の森が、翌日窓の外を見てみると、一面、雪化粧。
 お部屋の窓から眺める時間は、本当に贅沢でした。
 
-![雪をかぶった松の木](/images/roku-kyoto/snow_pine-tree.jpeg)
-![雪の中庭と建物](/images/roku-kyoto/snow_courtyard.jpeg)
-![窓辺から見る雪景色](/images/roku-kyoto/snow_window-view.jpeg)
-![雪が降り注ぐプールサイド](/images/roku-kyoto/snow_poolside.jpeg)
+![雪をかぶった松の木](/images/roku-kyoto/snow_pine-tree.webp)
+![雪の中庭と建物](/images/roku-kyoto/snow_courtyard.webp)
+![窓辺から見る雪景色](/images/roku-kyoto/snow_window-view.webp)
+![雪が降り注ぐプールサイド](/images/roku-kyoto/snow_poolside.webp)
 
 朝、温泉プールへ向かう途中、スタッフの方と少し話す機会がありました。外国籍の方で、「雪を見るのは初めてです」と教えてくれました。
 京都でも、雪が積もるのは珍しいこと。
@@ -189,8 +189,8 @@ ROKU KYOTOの大きな魅力のひとつが、インフィニティ温泉プー�
 同じ庭園が、まったく違う表情を見せてくれました。
 これもまた、ROKU KYOTOならではの体験だったと思います。
 
-![翌朝の庭園（青空）](/images/roku-kyoto/morning_blue-sky-garden2.jpeg)
-![翌朝の庭園（青空）その2](/images/roku-kyoto/morning_blue-sky-garden1.jpeg)
+![翌朝の庭園（青空）](/images/roku-kyoto/morning_blue-sky-garden2.webp)
+![翌朝の庭園（青空）その2](/images/roku-kyoto/morning_blue-sky-garden1.webp)
 
 朝の時間には、ジムにも立ち寄りました。
 ヨガマットが用意されたスペースに、大きな画面。ヨガやストレッチのメニューを選んで、映像と一緒に体を動かせる仕組みです。
@@ -199,7 +199,7 @@ ROKU KYOTOの大きな魅力のひとつが、インフィニティ温泉プー�
 雪景色を眺めながら、大きな画面で身体を動かす。
 これもまた、ROKU KYOTOらしい、贅沢な朝の過ごし方だったと思います。
 
-![ジム・ヨガマットとモニター](/images/roku-kyoto/gym_yoga-mat.jpeg)
+![ジム・ヨガマットとモニター](/images/roku-kyoto/gym_yoga-mat.webp)
 
 ## 総評：こんな人にROKU KYOTOはおすすめ
 
@@ -210,7 +210,7 @@ ROKU KYOTOの大きな魅力のひとつが、インフィニティ温泉プー�
 特別なリクエストをしたわけではありません。ただそこにあったものが、より美しく整えられていた。それだけのことなのに、強く心を動かされたんですよね。
 そのコードバンド、今でも大切に使っています。
 
-![充電コードを整えてくれたテーブル](/images/roku-kyoto/desk_cord-band.jpeg)
+![充電コードを整えてくれたテーブル](/images/roku-kyoto/desk_cord-band.webp)
 
 雪という偶然のおかげで、特別な一日になったのは確かです。
 でも、それを抜きにしても——鷹峯（たかがみね）の森に包まれた静かなロケーション、事前予約制の温泉プール、丁寧な朝食、行き届いたサービス。
