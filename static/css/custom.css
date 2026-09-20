@@ -1003,3 +1003,43 @@
   cursor: default;
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
 }
+
+/* ─── ギャラリー（写真の横並び） ─── */
+.iro-gallery {
+  display: grid;
+  gap: 8px;
+  align-items: start;
+  margin: 0 auto 24px;
+  max-width: 100%;
+}
+
+.iro-gallery--1 { grid-template-columns: 1fr; max-width: 420px; }
+.iro-gallery--2 { grid-template-columns: repeat(2, 1fr); }
+.iro-gallery--3 { grid-template-columns: repeat(3, 1fr); }
+.iro-gallery--4 { grid-template-columns: repeat(4, 1fr); }
+
+.post-content .iro-gallery img {
+  width: 100% !important;
+  height: auto;
+  max-height: none;
+  display: block;
+  margin: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* スマホでは2列に折り返す */
+@media (max-width: 640px) {
+  .iro-gallery--3,
+  .iro-gallery--4 { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ─── 記事内の動画 ─── */
+.post-content .iro-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 24px;
+  border-radius: 4px;
+  background: #000;
+}

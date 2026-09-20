@@ -19,7 +19,7 @@ document.querySelectorAll('.post-tags a').forEach(function(a) {
 </script>
 
 <script>
-document.querySelectorAll('.photo-pair img').forEach(function(img) {
+document.querySelectorAll('.photo-pair img, .iro-gallery img').forEach(function(img) {
   img.addEventListener('click', function() {
     var overlay = document.createElement('div');
     overlay.className = 'lightbox-overlay';

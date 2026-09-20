@@ -1,0 +1,33 @@
+{{- /*
+  gallery — 写真を横並びに配置するショートコード
+
+  使い方:
+    {{< gallery cols="3" >}}
+    /images/xxx/01.jpg | 1枚目のalt
+    /images/xxx/02.jpg | 2枚目のalt
+    {{< /gallery >}}
+
+  パラメータ:
+    cols  … 列数（1〜4／既定 2）。スマホ幅では2列に折り返す
+    ratio … 任意。"3/4" などを指定すると高さを揃えてトリミング
+*/ -}}
+{{- $cols := .Get "cols" | default "2" -}}
+{{- $ratio := .Get "ratio" -}}
+{{- $items := slice -}}
+{{- range (split .Inner "\n") -}}
+  {{- $line := trim . " \t\r" -}}
+  {{- if $line -}}
+    {{- $parts := split $line "|" -}}
+    {{- $src := trim (index $parts 0) " " -}}
+    {{- $alt := "" -}}
+    {{- if gt (len $parts) 1 -}}
+      {{- $alt = trim (index $parts 1) " " -}}
+    {{- end -}}
+    {{- $items = $items | append (dict "src" $src "alt" $alt) -}}
+  {{- end -}}
+{{- end -}}
+<div class="iro-gallery iro-gallery--{{ $cols }}">
+{{- range $items }}
+  <img loading="lazy" src="{{ .src }}" alt="{{ .alt }}"{{ with $ratio }} style="aspect-ratio: {{ . }}; object-fit: cover;"{{ end }}>
+{{- end }}
+</div>

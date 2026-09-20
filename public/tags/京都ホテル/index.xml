@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>京都ホテル on イロフル</title>
-    <link>http://localhost:1313/tags/%E4%BA%AC%E9%83%BD%E3%83%9B%E3%83%86%E3%83%AB/</link>
+    <link>https://iro-full.com/tags/%E4%BA%AC%E9%83%BD%E3%83%9B%E3%83%86%E3%83%AB/</link>
     <description>Recent content in 京都ホテル on イロフル</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>2026 イロフル · irofull</copyright>
     <lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E4%BA%AC%E9%83%BD%E3%83%9B%E3%83%86%E3%83%AB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iro-full.com/tags/%E4%BA%AC%E9%83%BD%E3%83%9B%E3%83%86%E3%83%AB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ROKU KYOTO宿泊レビュー｜鷹峯（たかがみね）の森で過ごす、静寂と非日常のひととき</title>
-      <link>http://localhost:1313/posts/roku-kyoto-review/</link>
+      <link>https://iro-full.com/posts/roku-kyoto-review/</link>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/roku-kyoto-review/</guid>
+      <guid>https://iro-full.com/posts/roku-kyoto-review/</guid>
       <description>京都・鷹峯（たかがみね）にあるROKU KYOTOに宿泊した体験談。予約のコツ、温泉プール、朝食、雪の日の特別な思い出までを詳しくレポートします。</description>
     </item>
   </channel>

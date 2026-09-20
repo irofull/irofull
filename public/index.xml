@@ -2,25 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>イロフル</title>
-    <link>http://localhost:1313/</link>
+    <link>https://iro-full.com/</link>
     <description>Recent content on イロフル</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <copyright>2026 イロフル · irofull</copyright>
-    <lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="https://iro-full.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>青森から日帰りで、大間のマグロを食べに行く</title>
+      <link>https://iro-full.com/posts/aomori-oma-maguro/</link>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://iro-full.com/posts/aomori-oma-maguro/</guid>
+      <description>青森駅から電車とバスを乗り継いで、大間のマグロを食べに日帰りしてきた記録。ルート、所要時間、お店選びのコツまで。</description>
+    </item>
     <item>
       <title>ROKU KYOTO宿泊レビュー｜鷹峯（たかがみね）の森で過ごす、静寂と非日常のひととき</title>
-      <link>http://localhost:1313/posts/roku-kyoto-review/</link>
+      <link>https://iro-full.com/posts/roku-kyoto-review/</link>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/roku-kyoto-review/</guid>
+      <guid>https://iro-full.com/posts/roku-kyoto-review/</guid>
       <description>京都・鷹峯（たかがみね）にあるROKU KYOTOに宿泊した体験談。予約のコツ、温泉プール、朝食、雪の日の特別な思い出までを詳しくレポートします。</description>
     </item>
     <item>
       <title>ヒルトンアメックスプレミアム、年会費66,000円を毎年更新し続ける理由</title>
-      <link>http://localhost:1313/posts/hilton-amex-premium/</link>
+      <link>https://iro-full.com/posts/hilton-amex-premium/</link>
       <pubDate>Fri, 08 May 2026 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/hilton-amex-premium/</guid>
+      <guid>https://iro-full.com/posts/hilton-amex-premium/</guid>
       <description>&lt;p&gt;年会費66,000円のクレジットカードを持っている。&lt;/p&gt;
 &lt;p&gt;毎年、更新のタイミングになると少し迷う。66,000円は決して安くない。他のカードに乗り換えようかと調べたこともある。それでも結局、更新する。&lt;/p&gt;
 &lt;p&gt;なぜそうなるのか、自分なりに整理してみた。&lt;/p&gt;
@@ -85,16 +92,16 @@
     </item>
     <item>
       <title>ウォルドーフ・アストリア大阪宿泊レビュー｜大阪の空の上で過ごす、特別な1泊</title>
-      <link>http://localhost:1313/posts/waldorf-astoria-osaka/</link>
+      <link>https://iro-full.com/posts/waldorf-astoria-osaka/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/waldorf-astoria-osaka/</guid>
+      <guid>https://iro-full.com/posts/waldorf-astoria-osaka/</guid>
       <description>ヒルトンアメックスプレミアムの無料宿泊特典でウォルドーフ・アストリア大阪に泊まった体験記。屋内プール、朝食、スタッフの気配りまで詳しくレポートします。</description>
     </item>
     <item>
       <title>編み物を始めたら、心が整った話。祖母から受け継いだ、同じことの繰り返しの豊かさ</title>
-      <link>http://localhost:1313/posts/knitting-story/</link>
+      <link>https://iro-full.com/posts/knitting-story/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/knitting-story/</guid>
+      <guid>https://iro-full.com/posts/knitting-story/</guid>
       <description>&lt;p&gt;編み物をするようになって、何年か経つ。
 始める前は、こんなに長く続くとは思っていなかった。&lt;/p&gt;
 &lt;h2 id=&#34;編み物を始めたきっかけ&#34;&gt;編み物を始めたきっかけ&lt;/h2&gt;
@@ -166,9 +173,9 @@
     </item>
     <item>
       <title>酒場と編み場。なぜか同じ話ができる、不思議な共通点</title>
-      <link>http://localhost:1313/posts/sake-knitting/</link>
+      <link>https://iro-full.com/posts/sake-knitting/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/sake-knitting/</guid>
+      <guid>https://iro-full.com/posts/sake-knitting/</guid>
       <description>&lt;p&gt;お酒の席でなぜか本音が出た、何でも話せてしまった——そんな経験、ありませんか。
 実は編み物をしながら話すとき、不思議と同じことが起きるんです。
 酒場と編み場、まったく違う場所なのに、なぜだろう。&lt;/p&gt;
@@ -178,6 +185,7 @@
 しょーもないことを真剣に語ったり、逆に「それ、私のツボ！」みたいな本質をぽろっと言う人がいたり。
 20代後半、ショットバーでバイトしていた私は、カウンター越しにそういう瞬間をたくさん見てきた。
 お酒の場って、フィルターが外れる場所なんだと思う。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;バーのマスターとお客さん&#34; loading=&#34;lazy&#34; src=&#34;https://iro-full.com/images/sakaba-amiba/bar-master.webp&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;編み場でも同じことが起きる&#34;&gt;編み場でも同じことが起きる&lt;/h2&gt;
 &lt;p&gt;祖母はいつも忙しそうだった。
@@ -188,6 +196,7 @@
 &lt;p&gt;あの話を、祖母は編み物をしながら話してくれた——と思う。
 正確には覚えていないけれど、きっとそうだったはずだ。
 編み棒が動いていたから、出てきた話だった気がする。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;祖母と編み物&#34; loading=&#34;lazy&#34; src=&#34;https://iro-full.com/images/sakaba-amiba/knitting-grandma.webp&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;なぜそうなるのか&#34;&gt;なぜそうなるのか&lt;/h2&gt;
 &lt;p&gt;なぜそうなるのか、学術的なことはよくわからない。
@@ -207,6 +216,7 @@
 難しい話は置いておいて、要するに、編んでいると体が勝手にリラックスモードに入るということだ。&lt;/p&gt;
 &lt;p&gt;脳はガードを張る隙がなくて、体はリラックスしている。
 そりゃ、本音も出るよなあ、と思う。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;一人で編み物をする様子&#34; loading=&#34;lazy&#34; src=&#34;https://iro-full.com/images/sakaba-amiba/knitting-alone.webp&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;お酒がなくても、カウンターがなくても。
 毛糸と棒針一本あれば、あの酒場の感覚が作れる。
@@ -215,9 +225,9 @@
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://iro-full.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://iro-full.com/about/</guid>
       <description>&lt;p&gt;もうすぐ60歳。なのに気持ちはいつも、20代と60代の間をふらふらしています。&lt;/p&gt;
 &lt;p&gt;セカンドライフを模索しながら、毎日あれこれ考えています。
 答えはなかなか出ないけれど、書くことで少し心が整理される気がして、
