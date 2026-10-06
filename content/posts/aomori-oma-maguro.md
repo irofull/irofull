@@ -149,7 +149,7 @@ description = "青森駅から電車とバスを乗り継いで、大間のマ�
 
 ここもすごく美味しくて、また、いっぱいいただきました。
 
-{{< gallery cols="3" >}}
+{{< gallery cols="3" ratio="9/16" >}}
 /images/oma-photos/16-yousuke-kani.jpg | 甲羅ごと焼いたカニ味噌と、きゅうりのスティック
 /images/oma-photos/17-yousuke-hotate.jpg | 貝殻ごと焼かれた、ねぎをのせたホタテの貝焼き
 /images/oma-photos/18-yousuke-ramen.jpg | チャーシューとメンマ、白髪ねぎがのった澄んだ醤油ラーメン

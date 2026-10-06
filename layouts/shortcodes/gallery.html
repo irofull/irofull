@@ -28,6 +28,6 @@
 {{- end -}}
 <div class="iro-gallery iro-gallery--{{ $cols }}">
 {{- range $items }}
-  <img loading="lazy" src="{{ .src }}" alt="{{ .alt }}"{{ with $ratio }} style="aspect-ratio: {{ . }}; object-fit: cover;"{{ end }}>
+  <img loading="lazy" src="{{ .src }}" alt="{{ .alt }}"{{ with $ratio }} style="aspect-ratio: {{ . | safeCSS }}; object-fit: cover;"{{ end }}>
 {{- end }}
 </div>
