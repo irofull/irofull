@@ -8,7 +8,7 @@ tags = ["旅行", "青森", "神戸空港", "ルートイン"]
 description = "神戸空港から期間限定のFDA便で青森へ。2年越しのリベンジ旅行の1日目は、神戸の餃子と、初めて知った料理で始まりました。"
 
 [cover]
-  image = "/images/aomori-day1/02-hyotan-gyoza.webp"
+  image = "/images/aomori-day1/day1-eyecatch.webp"
 +++
 
 ## 2年越しのリベンジ旅行
